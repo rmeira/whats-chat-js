@@ -1,0 +1,35 @@
+{
+  "name": "whats-chat-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmeira/whats-chat-js.git"
+  },
+  "keywords": [],
+  "author": "Rafael Meira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmeira/whats-chat-js/issues"
+  },
+  "homepage": "https://github.com/rmeira/whats-chat-js#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "sequelize": "^5.21.10",
+    "whatsapp-web.js": "^1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^1.19.1"
+  }
+}
